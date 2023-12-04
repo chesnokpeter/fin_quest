@@ -45,12 +45,11 @@ body {
     padding-bottom: 20px;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .question {
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.75);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -63,13 +62,14 @@ body {
     justify-content: center;
     padding: 30px 40px;
     margin-top: 30px;
-    font-size: 18pt;
+    font-size: 17pt;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+    line-height: 27px;
 
     text-align: center;
 }

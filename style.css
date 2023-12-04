@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.fullscreen {
+    min-height: 100vh;
+    background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-phone {
+    width: 100%;
+    max-width: 650px;
+    margin-top: -10px;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.row:last-child {
+    margin-bottom: 0px;
+}
+
+.variants {
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 3px solid #158600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.question {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(255, 255, 255, 0.96);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+    margin-top: 30px;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+    margin-right: 60px;
+    margin-left: 60px;
+
+    text-align: center;
+}
+
+.statistic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.level {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px 0px 0px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(255, 255, 255, 0.96);
+
+    font-size: 17pt;
+    padding: 0px 25px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.score {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 0px 16px 16px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(255, 255, 255, 0.96);
+
+    font-size: 17pt;
+    padding: 0px 25px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.left-button {
+    width: 40%;
+    border-radius: 0px 16px 16px 0px;
+    height: 60px;
+    border: none;
+    background-color: #139100;
+        font-size: 14pt;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    transition: 0.3s background-color;
+
+}
+
+.right-button {
+    border-radius: 16px 0px 0px 16px;
+    width: 40%;
+    height: 60px;
+    border: none;
+    background-color: #139100;
+    font-size: 14pt;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    transition: 0.3s background-color;
+}
+
+.left-button:hover, .right-button:hover {
+    background-color: #0d5d00;
+}
+
+.left-button:disabled, .right-button:disabled {
+    background-color: gray;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.result {
+    /*display: none;*/
+    transition: 0.3s;
+    background-color: #a40000;
+    color: white;
+    font-size: 16pt;
+    padding: 5px;
+    border-radius: 10px;
+    transform: scale(0);
+
+}
